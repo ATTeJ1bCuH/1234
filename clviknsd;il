@@ -1,0 +1,9 @@
+double delenie(double N1, double N2) {
+    double result = 0;
+    if(N2 == 0) {exit (1);}
+        else{
+            result = N1 / N2;
+        }
+        return result;
+    }
+    double delenie(double N1, double N2);
